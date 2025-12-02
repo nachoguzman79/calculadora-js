@@ -12,6 +12,6 @@ test('suma de 0 + 0 es igual a 0', () => {
   expect(sumar(0,0)).toBe(0);
 });
 
-test('suma de 10000 + 350 es igual a 0', () => {
+test('suma de 10000 + 350 es igual a 1350', () => {
   expect(sumar(1000,350)).toBe(1350);
 });
